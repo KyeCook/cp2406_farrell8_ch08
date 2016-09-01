@@ -21,7 +21,7 @@ public class DebugEight1
       entry = JOptionPane.showInputDialog(null,
          prompt); 
       userCode = entry.charAt();
-      for(int i = 0; x < okayCodes.length; ++i)
+      for(int i = 0; i < okayCodes.length; ++i)
       {
          if(userCode == okayCodes[i])
          {
